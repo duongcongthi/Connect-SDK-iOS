@@ -1,7 +1,0 @@
-source 'https://github.com/CocoaPods/Specs.git'
- platform :ios, '14.0'
- use_frameworks!
- inhibit_all_warnings!
- 
- target 'thingstv' do
-# ... existing code ... 

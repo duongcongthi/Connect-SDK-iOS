@@ -20,9 +20,9 @@
 
 #import "CastWebAppSession.h"
 #import "ConnectError.h"
-#import "CastServiceChannel.h"
 
-@interface CastWebAppSession ()
+
+@interface CastWebAppSession () <GCKMediaControlChannelDelegate>
 
 @end
 
@@ -44,22 +44,13 @@
     
     _castServiceChannel = [[CastServiceChannel alloc] initWithAppId:self.launchSession.appId session:self];
 
-    // Get current GCKCastSession and add the channel
-    GCKCastSession *castSession = self.service.sessionManager.currentCastSession;
-
-    if (!castSession) {
-        if (failure) {
-            failure([ConnectError generateErrorWithCode:ConnectStatusCodeNotConnected andDetails:@"Cannot connect channel, no active Cast session."]);
-        }
-        _castServiceChannel = nil; // Clean up unusable channel
-        return;
-    }
+    // clean up old instance of channel, if it exists
+    [self.service.castDeviceManager removeChannel:_castServiceChannel];
 
     _castServiceChannel.connectionSuccess = success;
     _castServiceChannel.connectionFailure = channelFailure;
 
-    // Add the custom channel to the session
-    [castSession addChannel:_castServiceChannel];
+    [self.service.castDeviceManager addChannel:_castServiceChannel];
 }
 
 - (void) joinWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure
@@ -69,14 +60,13 @@
 
 - (void)disconnectFromWebApp
 {
-    // Channel removal from session is handled by CastService during session end.
-    // Stopping the application is also handled by ending the session.
-    // Just clear the local reference.
-    if (_castServiceChannel) {
-        // Optionally, inform the channel it's disconnected if needed for its internal state.
-        // [_castServiceChannel didDisconnect]; // Example, depends on CastServiceChannel logic
-        _castServiceChannel = nil;
-    }
+    if (!_castServiceChannel)
+        return;
+
+    [self.service.castDeviceManager removeChannel:_castServiceChannel];
+    _castServiceChannel = nil;
+
+    [self.service.castDeviceManager leaveApplication];
 }
 
 #pragma mark - App to app
@@ -99,8 +89,7 @@
         return;
     }
 
-    GCKError *sendError = nil;
-    BOOL messageSent = [(GCKCastChannel *)_castServiceChannel sendTextMessage:message error:&sendError];
+    BOOL messageSent = [_castServiceChannel sendTextMessage:message];
 
     if (messageSent)
     {
@@ -109,11 +98,7 @@
     } else
     {
         if (failure)
-        {
-            NSString *details = sendError ? sendError.localizedDescription : @"Message could not be sent at this time.";
-            NSInteger code = sendError ? sendError.code : ConnectStatusCodeError; // Use GCKError code if available
-            failure([ConnectError generateErrorWithCode:code andDetails:details]);
-        }
+            failure([ConnectError generateErrorWithCode:ConnectStatusCodeError andDetails:@"Message could not be sent at this time."]);
     }
 }
 
@@ -213,24 +198,7 @@
         [metaData addImage:iconImage];
     }
     
-    // Use GCKMediaInformationBuilder (Copied logic from CastService.m)
-    NSArray *mediaTracks = nil;
-    if (mediaInfo.subtitleInfo) { // Assuming subtitleInfo exists on MediaInfo
-        // Need a way to create GCKMediaTrack here or rely on CastService's helper
-        // For simplicity, let's assume CastService handles track creation if needed,
-        // or pass nil for now if CastWebAppSession doesn't have direct access.
-        // mediaTracks = @[[self.service mediaTrackFromSubtitleInfo:mediaInfo.subtitleInfo]]; // If helper was public
-    }
-
-    GCKMediaInformationBuilder *builder = [[GCKMediaInformationBuilder alloc] initWithContentURL:mediaInfo.url];
-    builder.contentID = mediaInfo.url.absoluteString;
-    builder.streamType = GCKMediaStreamTypeBuffered;
-    builder.contentType = mediaInfo.mimeType;
-    builder.metadata = metaData;
-    builder.streamDuration = mediaInfo.duration;
-    builder.mediaTracks = mediaTracks; // Pass nil or created tracks
-    builder.textTrackStyle = [GCKMediaTextTrackStyle createDefault];
-    GCKMediaInformation *mediaInformation = [builder build];
+    GCKMediaInformation *mediaInformation = [[GCKMediaInformation alloc] initWithContentID:mediaInfo.url.absoluteString streamType:GCKMediaStreamTypeBuffered contentType:mediaInfo.mimeType metadata:metaData streamDuration:1000 customData:nil];
     
     [self.service playMedia:mediaInformation webAppId:self.launchSession.appId success:^(MediaLaunchObject *mediaLanchObject){
          self.launchSession.sessionId = mediaLanchObject.session.sessionId;

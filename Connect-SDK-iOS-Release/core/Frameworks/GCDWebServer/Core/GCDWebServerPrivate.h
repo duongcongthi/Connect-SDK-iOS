@@ -188,7 +188,6 @@ extern BOOL GCDWebServerIsTextContentType(NSString* type);
 extern NSString* GCDWebServerDescribeData(NSData* data, NSString* contentType);
 extern NSString* GCDWebServerComputeMD5Digest(NSString* format, ...) NS_FORMAT_FUNCTION(1,2);
 extern NSString* GCDWebServerStringFromSockAddr(const struct sockaddr* addr, BOOL includeService);
-extern NSString* GCDWebServerNormalizePath(NSString* path);
 
 @interface GCDWebServerConnection ()
 - (id)initWithServer:(GCDWebServer*)server localAddress:(NSData*)localAddress remoteAddress:(NSData*)remoteAddress socket:(CFSocketNativeHandle)socket;

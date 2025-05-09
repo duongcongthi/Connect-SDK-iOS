@@ -22,8 +22,8 @@
 
 @interface CastService ()
 
-// -(GCKDeviceManager *)createDeviceManagerWithDevice:(GCKDevice *)device
-//                                  andClientPackageName:(NSString *)clientPackageName;
-// -(GCKMediaControlChannel *)createMediaControlChannel;
+- (GCKDeviceManager *)createDeviceManagerWithDevice:(GCKDevice *)device
+                               andClientPackageName:(NSString *)clientPackageName;
+- (GCKMediaControlChannel *)createMediaControlChannel;
 
 @end
