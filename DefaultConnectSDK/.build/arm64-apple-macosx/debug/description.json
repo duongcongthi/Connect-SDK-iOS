@@ -1,0 +1,678 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.ConnectSDK-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/sources",
+      "importPath" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Sources/ConnectSDK/ConnectSDKSwift.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Devices/ConnectableDevice.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Devices/DefaultConnectableDeviceStore.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Devices/DevicePicker.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Discovery/CapabilityFilter.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Discovery/DiscoveryManager.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Discovery/DiscoveryProvider.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Discovery/Providers/SSDPDiscoveryProvider.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Discovery/Providers/ZeroConfDiscoveryProvider.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/GCDWebServer/Core/GCDWebServer.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/GCDWebServer/Core/GCDWebServerConnection.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/GCDWebServer/Core/GCDWebServerFunctions.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/GCDWebServer/Core/GCDWebServerRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/GCDWebServer/Core/GCDWebServerResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/GCDWebServer/Requests/GCDWebServerDataRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/GCDWebServer/Requests/GCDWebServerFileRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/GCDWebServer/Responses/GCDWebServerDataResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/GCDWebServer/Responses/GCDWebServerErrorResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/GCDWebServer/Responses/GCDWebServerFileResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/GCDWebServer/Responses/GCDWebServerStreamedResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/SocketRocket/LGSRWebSocket.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/XMLReader/CTXMLReader.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/objc-guid/CTGuid.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Frameworks/xswi/XMLWriter.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/AppInfo.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/AppStateChangeNotifier.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/BlockRunner/DispatchQueueBlockRunner.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/BlockRunner/SynchronousBlockRunner.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/ChannelInfo.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/ConnectError.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/ConnectUtil.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/DeviceServiceReachability.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/ExternalInputInfo.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/ImageInfo.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/MediaInfo.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/MediaLaunchObject.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/NSDictionary+KeyPredicateSearch.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/NSMutableDictionary+NilSafe.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/NSString+Common.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/ProgramInfo.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/SSDPSocketListener.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/SubscriptionDeduplicator.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/SubtitleInfo.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Helpers/TextInputStatusInfo.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/AirPlayService.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Capabilities/CapabilityConstants.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Commands/ServiceAsyncCommand.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Commands/ServiceCommand.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Commands/ServiceSubscription.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Config/NetcastTVServiceConfig.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Config/ServiceConfig.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Config/ServiceDescription.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Config/WebOSTVServiceConfig.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/DIALService.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/DLNAService.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/DeviceService.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Helpers/AirPlayServiceHTTP.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Helpers/AirPlayServiceHTTPKeepAlive.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Helpers/AirPlayServiceMirrored.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Helpers/DLNAHTTPServer.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Helpers/NSObject+FeatureNotSupported_Private.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Helpers/WebOSTVServiceMouse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Helpers/WebOSTVServiceSocketClient.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Helpers/XMLWriter+ConvenienceMethods.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/NetcastTVService.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/RokuService.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Sessions/AirPlayWebAppSession.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Sessions/LaunchSession.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Sessions/WebAppSession.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/Sessions/WebOSWebAppSession.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/core/Services/WebOSTVService.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKNoArc.build/Classes/CTASIAuthenticationDialog.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKNoArc.build/Classes/CTASIDataCompressor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKNoArc.build/Classes/CTASIDataDecompressor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKNoArc.build/Classes/CTASIDownloadCache.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKNoArc.build/Classes/CTASIFormDataRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKNoArc.build/Classes/CTASIHTTPRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKNoArc.build/Classes/CTASIInputStream.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKNoArc.build/Classes/CTASINetworkQueue.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKNoArc.build/External/Reachability/CTReachability.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ConnectSDK",
+      "moduleOutputPath" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/Modules/ConnectSDK.swiftmodule",
+      "objects" : [
+        "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/ConnectSDKSwift.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core",
+        "-Xcc",
+        "-fmodule-map-file=/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKNoArc.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/no-arc/Classes",
+        "-module-cache-path",
+        "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/ConnectSDK-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-Xcc",
+        "-DCONNECT_SDK_VERSION=1.6.0",
+        "-Xcc",
+        "-DCONNECT_SDK_ENABLE_LOG",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Helpers",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Helpers/BlockRunner",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Discovery",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Discovery/Providers",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Devices",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Services",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Services/Capabilities",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Services/Commands",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Services/Config",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Services/Helpers",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Services/Sessions",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/GCDWebServer/Core",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/GCDWebServer/Requests",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/GCDWebServer/Responses",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/SocketRocket",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/XMLReader",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/objc-guid",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/xswi",
+        "-Xcc",
+        "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Support Files",
+        "-Xcc",
+        "-include",
+        "-Xcc",
+        "../../Support Files/ConnectSDK-prefix.pch",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.sdk",
+        "-target",
+        "arm64-apple-ios11.0",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/ConnectSDKSwift.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/Modules/ConnectSDK.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Sources/ConnectSDK/ConnectSDKSwift.swift"
+      ],
+      "tempsPath" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "ConnectSDK" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ConnectSDK",
+      "-incremental",
+      "-c",
+      "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Sources/ConnectSDK/ConnectSDKSwift.swift",
+      "-I",
+      "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKCore.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core",
+      "-Xcc",
+      "-fmodule-map-file=/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDKNoArc.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/no-arc/Classes",
+      "-module-cache-path",
+      "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/ConnectSDK-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-Xcc",
+      "-DCONNECT_SDK_VERSION=1.6.0",
+      "-Xcc",
+      "-DCONNECT_SDK_ENABLE_LOG",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Helpers",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Helpers/BlockRunner",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Discovery",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Discovery/Providers",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Devices",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Services",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Services/Capabilities",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Services/Commands",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Services/Config",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Services/Helpers",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Services/Sessions",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/GCDWebServer/Core",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/GCDWebServer/Requests",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/GCDWebServer/Responses",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/SocketRocket",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/XMLReader",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/objc-guid",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/xswi",
+      "-Xcc",
+      "-I/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Support Files",
+      "-Xcc",
+      "-include",
+      "-Xcc",
+      "../../Support Files/ConnectSDK-prefix.pch",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.sdk",
+      "-target",
+      "arm64-apple-ios11.0",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "ConnectSDK" : [
+      "ConnectSDKCore",
+      "GoogleCast",
+      "ConnectSDKNoArc"
+    ],
+    "ConnectSDKCore" : [
+      "GoogleCast",
+      "ConnectSDKNoArc"
+    ],
+    "ConnectSDKNoArc" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Sources/ConnectSDK/ConnectSDKSwift.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/sources"
+    },
+    "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

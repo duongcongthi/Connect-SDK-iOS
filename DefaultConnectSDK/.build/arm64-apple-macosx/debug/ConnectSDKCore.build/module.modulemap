@@ -1,0 +1,4 @@
+module ConnectSDKCore {
+    umbrella "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core"
+    export *
+}

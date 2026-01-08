@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/master.swiftdeps"
+  },
+  "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Sources/ConnectSDK/ConnectSDKSwift.swift": {
+    "dependencies": "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/ConnectSDKSwift.d",
+    "object": "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/ConnectSDKSwift.swift.o",
+    "swiftmodule": "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/ConnectSDKSwift~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/ConnectSDKSwift.swiftdeps"
+  }
+}

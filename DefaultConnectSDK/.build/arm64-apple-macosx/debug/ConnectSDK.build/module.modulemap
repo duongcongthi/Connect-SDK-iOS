@@ -1,0 +1,4 @@
+module ConnectSDK {
+    header "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/.build/arm64-apple-macosx/debug/ConnectSDK.build/ConnectSDK-Swift.h"
+    requires objc
+}

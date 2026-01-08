@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "connectsdk",
+          "kind" : "root",
+          "location" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK",
+          "name" : "ConnectSDK"
+        },
+        "path" : "/Volumes/Macintosh Data/Documents/ITUNES_NEW/CEAPP/CAST-Projects/AppStoreConnect/AllShare/ConnectSDK/Core/core/Frameworks/google-cast-sdk/GoogleCast.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "GoogleCast"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 6
+}
